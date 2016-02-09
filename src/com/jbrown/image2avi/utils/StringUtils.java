@@ -61,9 +61,7 @@ public class StringUtils {
       String paramStr = str;
 
       while (str.indexOf((int) from) >= 0) {
-        // str = replaceCharAt(str, str.indexOf((int)from), to);
         for (int i : indexs) {
-          // str = replaceCharAt(repStr, i, to);
           list.add(replaceCharAt(paramStr, i, to));
         }
 
